@@ -6,3 +6,5 @@ function circlePerimeterAndArea(radius){
     console.log(`Circle Perimeter: ${Math.round(perimeter)}`);
     console.log(`Circle Area: ${Math.round(area)}`);
 }
+
+circlePerimeterAndArea(7);
