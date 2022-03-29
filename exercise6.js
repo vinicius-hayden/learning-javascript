@@ -11,3 +11,9 @@ function divisionQuocientAndRemainder(dividend, divisor){
         console.log(`Remainder: ${rem}`)
     }
 }
+
+// if given dividend and divisor are not an integer
+divisionQuocientAndRemainder(2.5,z);
+
+// if given dividend or divisor are an integer
+divisionQuocientAndRemainder(20,2);
