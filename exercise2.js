@@ -2,7 +2,10 @@
 
 function squarePerimeterAndArea(side){
     const perimeter = (side*4);    
-    const area = side**
+    const area = side*side
     console.log(`Square Perimeter: ${perimeter}`)
     console.log(`Square Area: ${area}`)
 }
+
+// success case
+squarePerimeterAndArea(8);
