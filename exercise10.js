@@ -14,4 +14,4 @@ function mstoKm(speed){
 // if given speed parameter is not a number
 mstoKm("Hello!");
 // if given speed parameter is a number
-mstoKm(3.6);
+mstoKm(1);
