@@ -2,6 +2,16 @@
 // temperature value in Fahrenheit and display it in Celsius
 
 function fahrenheitToCelsius(fahrenheit_temperature){
-    celsius = (fahrenheit_temperature - 32) * (5/9)
-    console.log(`${fahrenheit_temperature}°F = ${celsius}°C`)
+    if(typeof(fahrenheit_temperature) == "number"){
+        celsius = (fahrenheit_temperature - 32) * (5/9)
+        console.log(`${fahrenheit_temperature}°F = ${celsius}°C`)
+    }
+    else {
+        console.log("Invalid Input: please insert a number")
+    }
 }
+
+// if given fahrenheit temperature parameter is not a number
+fahrenheitToCelsius("number");
+// if given fahrenheit temperature paramter is a number
+fahrenheitToCelsius(32);
