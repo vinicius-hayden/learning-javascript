@@ -1,4 +1,4 @@
-// Read an integer and display its successor.
+// Read an integer and display its successive number.
 
 function integerSuccesor(integer){
     var successor = integer + 1
@@ -9,3 +9,12 @@ function integerSuccesor(integer){
         console.log(`Integer Successor: ${successor}`)
     }
 }
+
+// when given integer parameter is not a integer
+integerSuccesor("z");
+
+integerSuccesor(true);
+
+// when given integer parameter is an integer
+
+integerSuccesor(10);
