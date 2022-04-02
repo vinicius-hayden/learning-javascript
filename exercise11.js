@@ -8,7 +8,10 @@
 //b. a velocidade permitida da via
 //c. a aceleração típica dos carros
 
-function tempoSemaforoAbrir(distancia_semaforo_anterior, velocidade_maxima_via, aceleracao_carros){
-    
+function tempoSemaforoAbrir(velocidade_maxima_via, aceleracao_carros){
+   tempo = velocidade_maxima_via - aceleracao_carros + 0
+   tempoAteProximoSemaforo = tempo 
+   tempoParaAbrir = tempo - 3
+   return tempoParaAbrir
 }
-
+console.log(tempoSemaforoAbrir(60,30));
