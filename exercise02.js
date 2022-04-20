@@ -8,4 +8,4 @@ function squarePerimeterAndArea(side){
 }
 
 // success case
-squarePerimeterAndArea(8);
+squarePerimeterAndArea(8)
