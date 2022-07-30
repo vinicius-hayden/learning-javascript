@@ -53,7 +53,7 @@
     return line[line.trim().length - 1];
   }
   
-  /**
+  /* *
    * Format the password for the back door, given the response
    * letters.
    *
